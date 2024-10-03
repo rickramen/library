@@ -1,3 +1,81 @@
+body{
+    margin: 0;
+    background-color: blanchedalmond;
+}
+
+header {
+    background-color: rgb(95, 48, 4);
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+#new-book-btn {
+   display: block;
+   margin: 20px auto;
+   outline: none;
+   border: 1px solid black;
+   border-radius: 8px;
+   width: 200px;
+   height: 40px;
+   
+}
+
+#library-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 25px;
+}
+
 .book-card {
-    border: 2px solid red;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: rgb(189, 136, 72);
+    width: 250px;
+    height: 300px;
+    padding-bottom: 10px;
+}
+
+#bookcard-content {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.book-card button {
+    width: 120px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+#book-modal {
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+#new-book-form {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;              
+}
+
+#new-book-form label {
+    font-weight: bold;     
+}
+
+#new-book-form input {
+    padding: 5px;            
+    width: 100%;        
+}     
+
+#new-book-form button {
+    margin-top: 10px;        
 }
